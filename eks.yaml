@@ -5,7 +5,7 @@ metadata:
   name: localhelp
   region: us-east-1
 
-managednodeGroups:
+managedNodeGroups:
   - name: expense
     instanceType: m5.large
     desiredCapacity: 3
