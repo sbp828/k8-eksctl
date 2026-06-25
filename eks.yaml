@@ -7,6 +7,6 @@ metadata:
 
 managedNodeGroups:
   - name: localhelp
-    instanceType: m5.large
-    desiredCapacity: 3
+    instanceType: t3.medium
+    desiredCapacity: 2
     spot: true
