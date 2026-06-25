@@ -2,11 +2,11 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: localhelp
+  name: localhelpp
   region: us-east-1
 
 managedNodeGroups:
-  - name: ng1
+  - name: ng1-localhelp
     instanceType: t3.small
     desiredCapacity: 1
     minSize: 1
