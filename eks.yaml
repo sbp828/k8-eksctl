@@ -6,7 +6,8 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-  - name: localhelp
-    instanceType: t3.medium
-    desiredCapacity: 2
-    spot: true
+  - name: ng1
+    instanceType: t3.small
+    desiredCapacity: 1
+    minSize: 1
+    maxSize: 1
