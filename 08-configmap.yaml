@@ -3,7 +3,8 @@ kind: ConfigMap
 
 metadata:
   name: app-config
-  data:
-    ENV: DEV
-    APP_NAME: localhelp
-    DB_HOST: mysql-dev
+
+data:
+ ENV: DEV
+ APP_NAME: localhelp
+ DB_HOST: mysql-dev
