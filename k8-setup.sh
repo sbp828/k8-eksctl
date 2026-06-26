@@ -3,7 +3,7 @@
 set -e
 
 sudo dnf update -y
-sudo dnf install -y curl wget unzip jq tar
+sudo dnf install -y wget unzip jq tar
 
 # Install kubectl
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
